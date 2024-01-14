@@ -1,0 +1,8 @@
+---
+kubernetes:
+  children:
+    master:
+      hosts:
+        debian12big:
+          ansible_user: kprzybyla
+          ansible_host: 192.168.0.168
